@@ -12,9 +12,11 @@
 #jarda2{
     font-size: 2rem;
 }
+#prdidlo{
+    padding-top: 3%;
+}
 #kadina{
     text-align: left;
-    padding-top: 3%;
     padding-left: 20%;
     font-size: 1.5rem;
     font-family: Calibri;
