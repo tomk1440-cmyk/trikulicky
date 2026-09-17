@@ -5,13 +5,14 @@
 :root {
     background: #ed9e27;
     text-align: center;
-    color: aliceblue;
+    color: #000000;
     font-family: sans-serif;
 }
 
 #jarda {
     padding-top: 3%;
     font-size: 5rem;
+    text-decoration-thickness:1000px;
 }
 
 #jarda2 {
@@ -35,3 +36,15 @@
 #prdidlo, #kadina2 {
     padding-top: 3%;
 }
+body{background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
+background-size: initial;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#risiprdikysmrdi{padding: 30%;}
