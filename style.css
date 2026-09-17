@@ -1,6 +1,10 @@
 #kouzelny-jarda{
-    text-decoration: #61ba9d;
+    color: #61ba9d;
+    text-align: center;
+    text-transform: uppercase;
 }
 #cernejalex{
-    text-decoration: indigo;
+    color: indigo;
+    text-decoration: underline coral;
+    text-align: center;
 }
