@@ -1,11 +1,21 @@
 :root {
-    background: #c5951e;
+    background: #ed9e27;
     text-align: center;
     color: aliceblue;
-    font-family: Calibri;
+    font-family: sans-serif;
 }
 #jarda{
     padding-top: 3%;
 
     font-size: 5rem;
+}
+#jarda2{
+    font-size: 2rem;
+}
+#kadina{
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 20%;
+    font-size: 1.5rem;
+    font-family: Calibri;
 }
