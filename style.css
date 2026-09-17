@@ -1,4 +1,4 @@
-#kouzelny-jarda{
+/* #kouzelny-jarda{
     color: #61ba9d;
     text-align: center;
     text-transform: uppercase;
@@ -6,5 +6,14 @@
 #cernejalex{
     color: indigo;
     text-decoration: underline coral;
+    text-align: center;
+}
+ */
+#container{
+    #cernejalex{
+        color: blue;
+    }
+
+    font-family: Verdana;
     text-align: center;
 }
