@@ -1,6 +1,11 @@
 #kouzelny-jarda{
-    text-decoration: #61ba9d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: indigo;
+    text-align: center;
+    text-transform: uppercase;
 }
 #cernejalex{
-    text-decoration: indigo;
+    color: indigo;
+    padding-top: 1%;
+    text-align: center;
 }
