@@ -20,12 +20,12 @@
 
 .kadina {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 sloupce vedle sebe */
-    grid-template-rows: auto auto;   /* 2 řádky pod sebou (grid 2x2) */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
 
-    padding: 0 10%;                 /* 10% odsazení od krajů obrazovky */
-    column-gap: 10%;                /* 10% mezera přesně uprostřed mezi sloupci */
-    row-gap: 40px;                  /* Mezera mezi horní a spodní řadou textů */
+    padding: 0 10%;
+    column-gap: 10%;
+    row-gap: 40px;
 
     text-align: left;
     font-size: 1.5rem;
