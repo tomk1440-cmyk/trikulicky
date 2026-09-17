@@ -1,23 +1,37 @@
+* {
+    box-sizing: border-box; /* Zajistí správné počítání 10% paddingu a gapu */
+}
+
 :root {
     background: #ed9e27;
     text-align: center;
     color: aliceblue;
     font-family: sans-serif;
 }
-#jarda{
-    padding-top: 3%;
 
+#jarda {
+    padding-top: 3%;
     font-size: 5rem;
 }
-#jarda2{
+
+#jarda2 {
     font-size: 2rem;
 }
-#prdidlo{
-    padding-top: 3%;
-}
-#kadina{
+
+.kadina {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 sloupce vedle sebe */
+    grid-template-rows: auto auto;   /* 2 řádky pod sebou (grid 2x2) */
+
+    padding: 0 10%;                 /* 10% odsazení od krajů obrazovky */
+    column-gap: 10%;                /* 10% mezera přesně uprostřed mezi sloupci */
+    row-gap: 40px;                  /* Mezera mezi horní a spodní řadou textů */
+
     text-align: left;
-    padding-left: 20%;
     font-size: 1.5rem;
-    font-family: Calibri;
+    font-family: Calibri, sans-serif;
+}
+
+#prdidlo, #kadina2 {
+    padding-top: 3%;
 }
