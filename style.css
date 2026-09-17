@@ -48,3 +48,11 @@ background-size: initial;
     
 }
 #risiprdikysmrdi{padding: 30%;}
+.sloupec {
+    background: #ed9e27;
+    padding: 24px;
+    max-width: 300px;
+    margin 16px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
