@@ -1,6 +1,11 @@
 :root {
-    background: #feb204;
+    background: #c5951e;
+    text-align: center;
+    color: aliceblue;
+    font-family: Calibri;
 }
 #jarda{
-    text-align: center;
+    padding-top: 3%;
+
+    font-size: 5rem;
 }
