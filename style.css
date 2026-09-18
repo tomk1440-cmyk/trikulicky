@@ -52,8 +52,38 @@ background-size: initial;
 
     background: rgb(237 158 39 / 0.81);
     padding: 24px;
-    max-width: 300px;
+    max-width: 500px;
     margin: 16px 13%;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 15px 0 25px 0;
+}
+
+.autumn-btn {
+    background-color: rgba(230, 145, 45, 0.85);
+    color: #2b1d0c;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease;
+    .autumn-btn:hover {
+        background-color: #c96b18;
+        color: #ffffff;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    }
+    .autumn-btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
