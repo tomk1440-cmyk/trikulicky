@@ -19,7 +19,7 @@
     background: #ed9e27;
     padding: 24px;
     max-width: 500px;
-    margin 16px 0;
+    margin: 16px 0;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -32,3 +32,4 @@ body{background-image: url("https://www.freeimageslive.co.uk/files/images008/aut
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    }
