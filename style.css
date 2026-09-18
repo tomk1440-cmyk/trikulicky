@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* Zajistí správné počítání 10% paddingu a gapu */
+    box-sizing: border-box;
 }
 
 :root {
