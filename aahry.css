@@ -1,7 +1,7 @@
 :root {
     background: #ed9e27;
     text-align: center;
-    color: aliceblue;
+    color: black;
     font-family: sans-serif;
     #jarda{
         padding-top: 3%;
@@ -55,3 +55,24 @@ body{background-image: url("https://www.freeimageslive.co.uk/files/images008/aut
     .autumn-btn:active {
         transform: translateY(-1px);
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);}}
+.kadina {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    padding: 0 10%;
+    column-gap: 10%;
+    row-gap: 40px;
+
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: Calibri, sans-serif;
+}
+.sloupec {
+    background: #ed9e27;
+    padding: 24px;
+    max-width: 500px;
+    margin: 16px 15%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
