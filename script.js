@@ -3,7 +3,11 @@ const activities = [
     "Bake cookies",
     "Go for a walk",
     "Take autumn photos",
-    "Drink hot chocolate"
+    "Drink hot chocolate",
+    "Hang out with friends",
+    "Look outside a window",
+    "Play some autumn themed game",
+    "Try some DIY"
 ];
 function randomActivity() {
     const random = Math.floor(Math.random() * activities.length);
