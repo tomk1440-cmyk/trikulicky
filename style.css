@@ -71,7 +71,7 @@ background-size: initial;
     font-family: inherit;
     font-size: 0.95rem;
     font-weight: 600;
-    padding: 10px 18px;
+    padding: 12px 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 25px;
 
@@ -83,6 +83,7 @@ background-size: initial;
         color: #ffffff;
         transform: translateY(-3px);
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+        transform: scale(1.05);
     }
     .autumn-btn:active {
         transform: translateY(-1px);
