@@ -98,4 +98,16 @@ body{background-image: url("https://hips.hearstapps.com/hmg-prod/images/easy-fal
         width: 100%;
         height: auto;
     }
+    .menu-links{
+        width: 170px;
+    }
+    .menu-links a{
+        padding : 12px 16px;
+    }
+    .back-to-top {
+        right: 10px;
+        bottom: 10px;
+        font-size: 0.75rem;
+        padding: 8px 12px;
+    }
 }
