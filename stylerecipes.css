@@ -77,3 +77,25 @@ body{background-image: url("https://hips.hearstapps.com/hmg-prod/images/easy-fal
     font-size: 1.5rem;
     font-family: Calibri, sans-serif;
 }
+@media (max-width: 768px) {
+    html, body {
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .kadina {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 25px
+    }
+    .sloupec {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 20px;
+    }
+    .sloupec img {
+        width: 100%;
+        height: auto;
+    }
+}
