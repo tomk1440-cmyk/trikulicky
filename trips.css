@@ -25,6 +25,28 @@
 #prdidlo, #kadina2 {
     padding-top: 3%;
 }
+.autumn-btn {
+    background-color: rgba(230, 145, 45, 0.85);
+    color: #2b1d0c;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease;
+    .autumn-btn:hover {
+        background-color: #c96b18;
+        color: #ffffff;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    }
+    .autumn-btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);}}
 body{background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
     background-size: initial;
     background-repeat: no-repeat;
