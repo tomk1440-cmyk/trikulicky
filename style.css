@@ -88,3 +88,31 @@ background-size: initial;
     .autumn-btn:active {
         transform: translateY(-1px);
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);}}
+html {
+< style > scroll-behavior: smooth;
+}
+
+.about-section {
+    max-widht:800px;
+    margin:120px auto 60px auto;
+    padding:30px;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 14px;
+    text-align:center;
+    color: #ffffff;
+}
+.team-container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.member-card{
+    background-color:rgba(230, 145, 45, 0.9);
+    color:#2b1d0c;
+    padding:20px;
+    border-radius: 10px ;
+    width:500px;
+    text-align: center;
+}
