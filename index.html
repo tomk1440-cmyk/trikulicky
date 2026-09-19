@@ -7,32 +7,29 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+<div class="menu">
+    <button class="menu-btn" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+    <div id="menuLinks" class="menu-links">
+        <a href="index.html">Home</a>
+        <a href="recepty.html">Recipes</a>
+        <a href="filmy.html">Films</a>
+        <a href="top10.html">Top 10</a>
+        <a href="trips.html">Trips</a>
+        <a href="aahry.html">Activities</a>
+        <a href="chalenges.html">Challenges</a>
+    </div>
+</div>
 <h1 id="jarda">AUTUMN HAPPINESS</h1>
 <h2 id="jarda2">How to make your autumn feel good</h2>
 <div class="nav-container">
-<a href="recepty.html">
-    <button class="autumn-btn" style="animation-delay: 0.2s">Recipes </button>
-</a>
-
-<a href="filmy.html">
-    <button class="autumn-btn" style="animation-delay: 0.4s">Our picks!</button>
-</a>
-<a href="top10.html">
-    <button class="autumn-btn" style="animation-delay: 0.6s"> Our top 10!</button>
-</a>
-<a href="trips.html">
-    <button class="autumn-btn" style="animation-delay: 0.8s"> Trips</button>
-</a>
-<button class="autumn-btn" onclick="randomPage()" style="animation-delay: 1s">
+<button class="autumn-btn" onclick="randomPage()" style="animation-delay: 0.2s">
     Take me somewhere random!
 </button>
-<a href="aahry.html">
-    <button class="autumn-btn" style="animation-delay: 1.2s">Our activity and game picks!</button>
-</a>
-    <a href="chalenges.html">
-        <button class="autumn-btn" style="animation-delay: 1.4s">Our challanges!</button>
-    </a>
-<button  class="autumn-btn"onclick="randomActivity()" style="animation-delay: 1.6s">Random activity</button>
+<button  class="autumn-btn"onclick="randomActivity()" style="animation-delay: 0.4s">Random activity</button>
 </div>
 <h2 id="result">Click for a random activity!</h2>
 <div class="kadina">
@@ -69,22 +66,21 @@
         feel cozy. Next you can make some recipes</p>
     </div>
 </div>
-
-</div>
 <button class="autumn-btn back-to-top" onclick="goToTop()">
     Back to top
 </button>
-<script src="script.js"></script>
-</body><section id="about" class="about-section">
-<h2>About Us</h2>
-<p class="about-desc">
-    We created Autumn Happines to share our favorite seasonal picks, recipes,and activities.
-</p>
+<section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p class="about-desc">
+        We created Autumn Happines to share our favorite seasonal picks, recipes,and activities.
+    </p>
     <div class="team-container">
         <div class="member-card">
             <h3> Richard Počta,Tomáš Konopásek,Ondřej Malantuk,Patrik Počta</h3>
-       <p>Role: Web developers</p>
+            <p>Role: Web developers</p>
         </div>
     </div>
 </section>
+<script src="script.js"></script>
+</body>
 </html>

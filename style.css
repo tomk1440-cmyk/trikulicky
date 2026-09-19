@@ -57,6 +57,10 @@ background-size: initial;
     margin: 16px 13%;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.25s;
+}
+.sloupec:hover {
+    transform: scale(1.03);
 }
 .nav-container {
     display: flex;
@@ -113,4 +117,79 @@ background-size: initial;
     right: 20px;
     bottom: 20px;
     z-index: 1000;
+}
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2000;
+}
+.menu-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgba(230, 145, 45, 0.9);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.menu-btn:hover {
+    transform: scale(1.1);
+    background-color: #c96b18;
+}
+.menu-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    background-color: rgba(230, 145, 45, 0.95);
+    border-radius: 15px;
+    padding: 10px;
+
+    opacity: 0;
+    transform: translateX(-200px) scale(0.95);
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+.menu-links.show{
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    pointer-events: auto;
+}
+.menu-links a {
+    display: block;
+    color: #2b1d0c;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.menu-links a:hover {
+    background-color: #c96b18;
+    color: aliceblue;
+    transform: translateX(5px);
+
+}
+.about-section {
+    padding-bottom: 1px;
+}
+.menu-btn span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: black;
+    margin: 5px auto;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu-btn.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.menu-btn.open span:nth-child(2) {
+    opacity: 0;
+}
+.menu-btn.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }

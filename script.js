@@ -32,3 +32,10 @@ function goToTop(){
         behavior: "smooth"
     });
 }
+function toggleMenu() {
+    const menu = document.getElementById("menuLinks");
+    const button = document.querySelector(".menu-btn");
+
+    menu.classList.toggle("show");
+    button.classList.toggle("open");
+}
