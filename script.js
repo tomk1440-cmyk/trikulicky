@@ -9,3 +9,16 @@ function randomActivity() {
     const random = Math.floor(Math.random() * activities.length);
     document.getElementById("result").textContent = activities[random];
 }
+function randomPage() {
+    const pages = [
+        "recepty.html",
+        "challenges.html",
+        "filmy.html",
+        "top10.html",
+        "recepty.html",
+        "trips.html",
+        "aahry.html"
+    ]
+    const random = Math.floor(Math.random() * pages.length);
+    window.location.href = pages[random];
+}
