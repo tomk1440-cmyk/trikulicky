@@ -16,7 +16,7 @@ function randomActivity() {
 function randomPage() {
     const pages = [
         "recepty.html",
-        "challenges.html",
+        "chalenges.html",
         "filmy.html",
         "top10.html",
         "recepty.html",
