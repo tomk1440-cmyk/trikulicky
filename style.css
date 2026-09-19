@@ -200,3 +200,51 @@ background-size: initial;
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+    #jarda {
+        font-size: 2.8rem;
+        padding-top: 80px;
+    }
+    #jarda2 {
+        font-size: 1.4rem;
+        padding: 0 15px;
+    }
+    .kadina {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+        gap: 20px;
+        font-size: 1.1rem;
+    }
+    .sloupec {
+        width: 100%;
+        padding: 0 15px;
+        gap: 20px;
+        font-size: 1.1rem;
+    }
+    .nav-container {
+        padding: 0 15px;
+    }
+    .autumn-btn {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+    .menu {
+        top: 15px;
+        left: 15px;
+    }
+    .menu-links {
+        width: 100px;
+    }
+    .about-section {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+    .back-to-top {
+        right: 10px;
+        bottom: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
