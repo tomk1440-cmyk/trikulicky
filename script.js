@@ -6,7 +6,7 @@ const activities = [
     "Drink hot chocolate",
     "Hang out with friends",
     "Look outside a window",
-    "Play some autumn themed game",
+    "Play some autumn themed games",
     "Try some DIY"
 ];
 function randomActivity() {
@@ -25,4 +25,10 @@ function randomPage() {
     ]
     const random = Math.floor(Math.random() * pages.length);
     window.location.href = pages[random];
+}
+function goToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }

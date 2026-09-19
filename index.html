@@ -9,26 +9,28 @@
 <body>
 <h1 id="jarda">AUTUMN HAPPINESS</h1>
 <h2 id="jarda2">How to make your autumn feel good</h2>
+<div class="nav-container">
 <a href="recepty.html">
-    <button class="autumn-btn">Recipes </button>
+    <button class="autumn-btn" style="animation-delay: 0.2s">Recipes </button>
 </a>
 
 <a href="filmy.html">
-    <button class="autumn-btn">Our picks!</button>
+    <button class="autumn-btn" style="animation-delay: 0.4s">Our picks!</button>
 </a>
 <a href="top10.html">
-    <button class="autumn-btn"> Our top 10!</button>
+    <button class="autumn-btn" style="animation-delay: 0.6s"> Our top 10!</button>
 </a>
 <a href="trips.html">
-    <button class="autumn-btn"> Trips</button>
+    <button class="autumn-btn" style="animation-delay: 0.8s"> Trips</button>
 </a>
-<button class="autumn-btn" onclick="randomPage()">
+<button class="autumn-btn" onclick="randomPage()" style="animation-delay: 1s"> Random
     Take me somewhere random!
 </button>
 <a href="aahry.html">
-    <button class="autumn-btn">Our activity and game picks!</button>
+    <button class="autumn-btn" style="animation-delay: 1.2s">Our activity and game picks!</button>
 </a>
-<button  class="autumn-btn"onclick="randomActivity()">Random activity</button>
+<button  class="autumn-btn"onclick="randomActivity()" style="animation-delay: 1.4s">Random activity</button>
+</div>
 <h2 id="result">Click for a random activity!</h2>
 <div class="kadina">
     <!-- 1. blok (vlevo nahoře) -->
@@ -66,6 +68,9 @@
 </div>
 
 </div>
+<button class="autumn-btn back-to-top" onclick="goToTop()">
+    Back to top
+</button>
 <script src="script.js"></script>
 </body>
 </html>
