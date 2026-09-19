@@ -18,6 +18,8 @@ Trikulicky represent the original 3 guys working on this project:
 **ondramalejkluk**
 
 theese are the GitHub usernames btw.
+
+need to note that we are beginners
 ***
 # Why is it called Trikulicky
 **Trikulicky or in czech "Tři kuličky"**
