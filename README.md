@@ -44,3 +44,10 @@ need to note that we are beginners
 **@tomk1440-cmyk**
 ***
 # That's pretty much all, thank you for reading. Have a nice day!
+
+**Also, Screenshots!**
+
+<img width="422" height="895" alt="image" src="https://github.com/user-attachments/assets/c65f34c6-5a77-44c9-a6c9-769dbfd0a54a" />
+<img width="432" height="889" alt="image" src="https://github.com/user-attachments/assets/68a386b5-1034-4033-bcd2-d5cf02885033" />
+<img width="1359" height="948" alt="image" src="https://github.com/user-attachments/assets/0fb31daa-641b-46a2-ac55-29e849c96bf9" />
+
