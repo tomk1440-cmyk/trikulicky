@@ -15,12 +15,12 @@
 #jarda3{
     padding-top: 1%;
 }
-body{background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
+body{background-image: url("https://hips.hearstapps.com/hmg-prod/images/easy-fall-recipes-66ec58c68fcb5.jpg?crop=0.686xw:1.00xh;0.272xw,0&resize=1200:*");
     background-size: initial;
     background-repeat: no-repeat;
     margin: 0;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg);
+    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://hips.hearstapps.com/hmg-prod/images/easy-fall-recipes-66ec58c68fcb5.jpg?crop=0.686xw:1.00xh;0.272xw,0&resize=1200:*);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

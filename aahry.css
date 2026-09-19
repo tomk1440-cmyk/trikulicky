@@ -23,12 +23,12 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-body{background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
+body{background-image: url("https://i.guim.co.uk/img/media/e60bb66bb44226384cc4f7f1f255698ad4220ff7/187_0_2813_1688/master/2813.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=adeeabe981e88fca481999bd82211333");
     background-size: initial;
     background-repeat: no-repeat;
     margin: 0;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg);
+    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://i.guim.co.uk/img/media/e60bb66bb44226384cc4f7f1f255698ad4220ff7/187_0_2813_1688/master/2813.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=adeeabe981e88fca481999bd82211333);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
