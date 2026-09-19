@@ -16,11 +16,11 @@
 ***
 Trikulicky represent the original 3 guys working on this project:
 
-**tomk1440-cmyk**
+**@tomk1440-cmyk**
 
-**risapocta**
+**@risapocta**
 
-**ondramalejkluk**
+**@ondramalejkluk**
 
 theese are the GitHub usernames btw.
 
