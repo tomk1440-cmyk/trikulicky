@@ -1,316 +1,355 @@
 * {
-    box-sizing: border-box; /* Zajistí správné počítání 10% paddingu a gapu */
+  box-sizing: border-box; /* Zajistí správné počítání 10% paddingu a gapu */
 }
 
 :root {
-    text-align: center;
-    color: #000000;
-    font-family: sans-serif;
+  text-align: center;
+  color: #000000;
+  font-family: sans-serif;
 }
 
 #jarda {
-    margin-top: 0;
-    padding-top: 3%;
-    font-size: 5rem;
-    text-decoration-thickness:1000px;
+  margin-top: 0;
+  padding-top: 3%;
+  font-size: 5rem;
+  text-decoration-thickness: 1000px;
 }
 
 #jarda2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .kadina {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
 
-    padding: 0 10%;
-    column-gap: 10%;
-    row-gap: 40px;
+  padding: 0 10%;
+  column-gap: 10%;
+  row-gap: 40px;
 
-    text-align: left;
-    font-size: 1.5rem;
-    font-family: Calibri, sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: Calibri, sans-serif;
 }
 
-#prdidlo, #kadina2 {
-    padding-top: 3%;
+#prdidlo,
+#kadina2 {
+  padding-top: 3%;
 }
 body {
-    animation: pageFade 0,4s ease;
-    background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
-    background-size: initial;
-    background-repeat: no-repeat;
-    margin: 0;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(240, 140, 40, 0.4),rgba(240, 140, 40, 0.4)),url(https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
+  animation:
+    pageFade 0,
+    4s ease;
+  background-image: url("https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg");
+  background-size: initial;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(240, 140, 40, 0.4), rgba(240, 140, 40, 0.4)),
+    url(https://www.freeimageslive.co.uk/files/images008/autumn_colors.preview.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-#risiprdikysmrdi{padding: 30%;}
+#risiprdikysmrdi {
+  padding: 30%;
+}
 .sloupec {
-
-    background: rgb(237 158 39 / 0.81);
-    padding: 24px;
-    max-width: 500px;
-    margin: 16px 13%;
-    border-radius: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: 0.25s;
+  background: rgb(237 158 39 / 0.81);
+  padding: 24px;
+  max-width: 500px;
+  margin: 16px 13%;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.25s;
 }
 .sloupec:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 .nav-container {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin: 15px 0 25px 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 15px 0 25px 0;
 }
 
 .autumn-btn {
-    opacity: 0;
-    animation: buttonAppear 0.6s ease forwards;
-    transition: transform 0.25s ease;
-    background-color: rgba(230, 145, 45, 0.85);
-    color: #2b1d0c;
-    font-family: inherit;
-    font-size: 0.95rem;
-    font-weight: 600;
-    padding: 12px 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
+  opacity: 0;
+  animation: buttonAppear 0.6s ease forwards;
+  transition: transform 0.25s ease;
+  background-color: rgba(230, 145, 45, 0.85);
+  color: #2b1d0c;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
 
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.25s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease;
 }
 .autumn-btn:hover {
-    background-color: #c96b18;
-    color: #ffffff;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
-    transform: scale(1.05);}
+  background-color: #c96b18;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  transform: scale(1.05);
+}
 
 .autumn-btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);}
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
 
 .autumn-btn:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 @keyframes buttonAppear {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.back-to-top{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 1000;
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
 }
 .menu {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 2000;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2000;
 }
 .menu-btn {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    background-color: rgba(230, 145, 45, 0.9);
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: 0.3s;
-    transform: scale(1.1);
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgba(230, 145, 45, 0.9);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 .menu-btn:hover {
-    transform: scale(1.1);
-    background-color: #c96b18;
+  transform: scale(1.1);
+  background-color: #c96b18;
 }
 .menu-links {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 200px;
-    background-color: rgba(230, 145, 45, 0.95);
-    border-radius: 15px;
-    padding: 10px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  background-color: rgba(230, 145, 45, 0.95);
+  border-radius: 15px;
+  padding: 10px;
 
-    opacity: 0;
-    transform: translateX(-200px) scale(0.95);
-    pointer-events: none;
-    transition: 0.3s ease;
+  opacity: 0;
+  transform: translateX(-200px) scale(0.95);
+  pointer-events: none;
+  transition: 0.3s ease;
 }
-.menu-links.show{
-    opacity: 1;
-    transform: translateX(0) scale(1);
-    pointer-events: auto;
+.menu-links.show {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  pointer-events: auto;
 }
 .menu-links a {
-    display: block;
-    width: 100%;
-    color: #2b1d0c;
-    text-decoration: none;
-    padding: 12px 0;
-    border-radius: 10px;
-    transition: 0.2s;
-    text-align: center;
+  display: block;
+  width: 100%;
+  color: #2b1d0c;
+  text-decoration: none;
+  padding: 12px 0;
+  border-radius: 10px;
+  transition: 0.2s;
+  text-align: center;
 }
 .menu-links a.active {
-    background: #c96b18;
-    color: aliceblue;
+  background: #c96b18;
+  color: aliceblue;
 }
 .menu-links a:hover {
-    background-color: #c96b18;
-    color: aliceblue;
-    transform: translateX(5px);
-
+  background-color: #c96b18;
+  color: aliceblue;
+  transform: translateX(5px);
 }
 .about-section {
-    padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 .menu-btn span {
-    display: block;
-    width: 24px;
-    height: 3px;
-    background: black;
-    margin: 5px auto;
-    border-radius: 5px;
-    transition: 0.3s ease;
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: black;
+  margin: 5px auto;
+  border-radius: 5px;
+  transition: 0.3s ease;
 }
 .menu-btn.open span:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
 }
 .menu-btn.open span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 .menu-btn.open span:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 .about-section {
-    background: rgb(84 230 169 / 0.37);
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px 30px;
-    border-radius: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: rgb(84 230 169 / 0.37);
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 768px) {
-    html,body {
-        overflow-x: hidden;
-    }
-    #jarda {
-        font-size: 2.8rem;
-        padding-top: 80px;
-    }
-    #jarda2 {
-        font-size: 1.4rem;
-        padding: 0 15px;
-    }
-    .kadina {
-        grid-template-columns: 1fr;
-        padding: 0 15px;
-        gap: 20px;
-        font-size: 1.1rem;
-    }
-    .sloupec {
-        width: 100%;
-        max-width: none;
-        margin: 0;
-        padding: 20px;
-        font-size: 1.1rem;
-    }
-    .nav-container {
-        padding: 0 15px;
-    }
-    .autumn-btn {
-        font-size: 0.9rem;
-        padding: 10px 15px;
-    }
-    .menu {
-        top: 15px;
-        left: 15px;
-    }
-    .menu-links {
-        width: 100px;
-    }
-    .about-section {
-        margin: 30px 15px;
-        padding: 30px;
-    }
-    .back-to-top {
-        right: 10px;
-        bottom: 10px;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  #jarda {
+    font-size: 2.8rem;
+    padding-top: 80px;
+  }
+  #jarda2 {
+    font-size: 1.4rem;
+    padding: 0 15px;
+  }
+  .kadina {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+    gap: 20px;
+    font-size: 1.1rem;
+  }
+  .sloupec {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  .nav-container {
+    padding: 0 15px;
+  }
+  .autumn-btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+  .menu {
+    top: 15px;
+    left: 15px;
+  }
+  .menu-links {
+    width: 100px;
+  }
+  .about-section {
+    margin: 30px 15px;
+    padding: 30px;
+  }
+  .back-to-top {
+    right: 10px;
+    bottom: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .go-back {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .member-card h3 {
-    max-width: 500px;
-    margin: 20px auto;
-    line-height: 1.3;
+  max-width: 500px;
+  margin: 20px auto;
+  line-height: 1.3;
 }
 .email-btn {
-    background-color: #98e6c1;
-    color: #16382a;
-    text-decoration: none;
+  background-color: #98e6c1;
+  color: #16382a;
+  text-decoration: none;
 }
 .email-btn:hover {
-    background-color: #6fd5a5;
-    color: #16382a;
+  background-color: #6fd5a5;
+  color: #16382a;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #5c3a1e;
+  background: #5c3a1e;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ed9e27;
-    border-radius: 10px;
+  background: #ed9e27;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #c96b18;
+  background-color: #c96b18;
 }
 ::selection {
-    background: #ed9e27;
-    color: black;
+  background: #ed9e27;
+  color: black;
 }
 @keyframes pageFade {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-h1,h2 {
-    transition: 0.2s;
+h1,
+h2 {
+  transition: 0.2s;
 }
 h1:hover {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 button:focus-visible {
-    outline: 3px solid aliceblue;
-    outline-offset: 3px;
+  outline: 3px solid aliceblue;
+  outline-offset: 3px;
 }
 .copyright {
-    font-size: 0.75rem;
-    color: black;
-    text-align: center;
-    margin: 20px 0 10px 0;
+  font-size: 0.75rem;
+  color: black;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(237 158 39 / 0.81);
+  padding: 15px;
+  align-items: center;
+}
+
+.github-logo {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+.github-logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+.github-logo img:hover {
+  transform: scale(1.1);
 }

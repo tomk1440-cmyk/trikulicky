@@ -1,35 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
-    <link rel="apple-touch-icon" href="pumpkin.png">
+    <link rel="apple-touch-icon" href="pumpkin.png" />
 
-    <meta name="theme-color" content="#ed9e27">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ed9e27" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Autumn Happiness - autumn recipes, movies, trips, activities and challenges">
+    <meta
+      name="description"
+      content="Autumn Happiness - autumn recipes, movies, trips, activities and challenges"
+    />
 
-    <meta property="og:title" content="Autumn Happiness">
-    <meta property="og:description" content="Recipes, movies, trips, activities and challenges for a cozy autumn">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://trikulicky.slashosting.cloud">
-    <meta property="og:image" content="https://trikulicky.slashosting.cloud/pumpkin.png">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:title" content="Autumn Happiness" />
+    <meta
+      property="og:description"
+      content="Recipes, movies, trips, activities and challenges for a cozy autumn"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://trikulicky.slashosting.cloud" />
+    <meta
+      property="og:image"
+      content="https://trikulicky.slashosting.cloud/pumpkin.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <title>Autumn Happiness</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-<div class="menu">
-    <button class="menu-btn" onclick="toggleMenu()" aria-label="Open navigation menu" title="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-    </button>
-    <div id="menuLinks" class="menu-links">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="menu">
+      <button
+        class="menu-btn"
+        onclick="toggleMenu()"
+        aria-label="Open navigation menu"
+        title="Menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div id="menuLinks" class="menu-links">
         <a href="index.html">Home</a>
         <a href="recepty.html">Recipes</a>
         <a href="filmy.html">Films</a>
@@ -37,69 +51,106 @@
         <a href="trips.html">Trips</a>
         <a href="aahry.html">Activities</a>
         <a href="chalenges.html">Challenges</a>
+      </div>
     </div>
-</div>
-<h1 id="jarda" style="font-family: 'Century Gothic' ">AUTUMN HAPPINESS</h1>
-<h2 id="jarda2">How to make your autumn feel good</h2>
-<div class="nav-container">
-<button class="autumn-btn" onclick="randomPage()" style="animation-delay: 0.2s">
-    Take me somewhere random!
-</button>
-<button  class="autumn-btn"onclick="randomActivity()" style="animation-delay: 0.4s">Random activity</button>
-</div>
-<h2 id="result">Click for a random activity!</h2>
-<div class="kadina">
-    <!-- 1. blok (vlevo nahoře) -->
-    <div class="sloupec">
-        <p id="prdidlo">Enjoy nature. <br>
-            Go for a walk in forest or a park and enjoy <br>
-            the colorful autumn leaves. Fresh air and peaceful <br>
-            atmosphere can make you feel great.</p>
+    <h1 id="jarda" style="font-family: &quot;Century Gothic&quot;">
+      AUTUMN HAPPINESS
+    </h1>
+    <h2 id="jarda2">How to make your autumn feel good</h2>
+    <div class="nav-container">
+      <button
+        class="autumn-btn"
+        onclick="randomPage()"
+        style="animation-delay: 0.2s"
+      >
+        Take me somewhere random!
+      </button>
+      <button
+        class="autumn-btn"
+        onclick="randomActivity()"
+        style="animation-delay: 0.4s"
+      >
+        Random activity
+      </button>
     </div>
+    <h2 id="result">Click for a random activity!</h2>
+    <div class="kadina">
+      <!-- 1. blok (vlevo nahoře) -->
+      <div class="sloupec">
+        <p id="prdidlo">
+          Enjoy nature. <br />
+          Go for a walk in forest or a park and enjoy <br />
+          the colorful autumn leaves. Fresh air and peaceful <br />
+          atmosphere can make you feel great.
+        </p>
+      </div>
 
-    <!-- 2. blok (vpravo nahoře) -->
-    <div class="sloupec">
-        <p id="kadina2">Have a cozy evening <br>
-            Make yourself some hot tea or cocoa, <br>
-            wrap yourself in a blanket and watch your fav <br>
-            movie or series. Autumn is perfect for relaxing.</p>
-    </div>
+      <!-- 2. blok (vpravo nahoře) -->
+      <div class="sloupec">
+        <p id="kadina2">
+          Have a cozy evening <br />
+          Make yourself some hot tea or cocoa, <br />
+          wrap yourself in a blanket and watch your fav <br />
+          movie or series. Autumn is perfect for relaxing.
+        </p>
+      </div>
 
-    <!-- 3. blok (vlevo dole) -->
-    <div class="sloupec">
-        <p>Spend time with others. <br>
-        Invite your friends outside, play a game <br>
-        together or have a movie night. <br>
-        Autumn is much more enjoyable when you <br>
-        spend it with people you like.</p>
+      <!-- 3. blok (vlevo dole) -->
+      <div class="sloupec">
+        <p>
+          Spend time with others. <br />
+          Invite your friends outside, play a game <br />
+          together or have a movie night. <br />
+          Autumn is much more enjoyable when you <br />
+          spend it with people you like.
+        </p>
+      </div>
+      <!-- 4. blok (vpravo dole) -->
+      <div class="sloupec">
+        <p>
+          Create an autumn atmosphere. <br />
+          Decorate your room with autumn decorations, <br />
+          lights a candle or play some relaxing music <br />
+          Even small changes can make your room <br />
+          feel cozy. Next you can make some recipes
+        </p>
+      </div>
     </div>
-    <!-- 4. blok (vpravo dole) -->
-    <div class="sloupec">
-        <p>Create an autumn atmosphere. <br>
-        Decorate your room with autumn decorations, <br>
-        lights a candle or play some relaxing music <br>
-        Even small changes can make your room <br>
-        feel cozy. Next you can make some recipes</p>
-    </div>
-</div>
-<button class="autumn-btn back-to-top" onclick="goToTop()">
-    Back to top
-</button>
-<section id="about" class="about-section">
-    <h2>About Us</h2>
-    <p class="about-desc">
-        We created Autumn Happines to share our favorite seasonal picks, recipes,and activities.
-    </p>
-    <div class="team-container">
+    <button class="autumn-btn back-to-top" onclick="goToTop()">
+      Back to top
+    </button>
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p class="about-desc">
+        We created Autumn Happines to share our favorite seasonal picks,
+        recipes,and activities.
+      </p>
+      <div class="team-container">
         <div class="member-card">
-            <h3> Richard Počta,Tomáš Konopásek,Ondřej Malantuk,Patrik Počta</h3>
-            <p>Role: Web developers</p>
-            <a href="mailto:glixie@glixie.me" class="autumn-btn email-btn">Send Tomáš Konopásek an email!</a>
+          <h3>Richard Počta,Tomáš Konopásek,Ondřej Malantuk,Patrik Počta</h3>
+          <p>Role: Web developers</p>
+          <a href="mailto:glixie@glixie.me" class="autumn-btn email-btn"
+            >Send Tomáš Konopásek an email!</a
+          >
         </div>
-    </div>
-</section>
-<p>Have a nice day!</p>
-<p class="copyright">© 2026 Autumn Happiness by SlasHosting. All rights reserved.</p>
-<script src="script.js"></script>
-</body>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>Have a nice day!</p>
+      </div>
+      <br />
+      <p class="copyright">
+        © 2026 Autumn Happiness by SlasHosting. All rights reserved.
+      </p>
+
+      <div class="github-logo">
+        <a href="https://github.com/tomk1440-cmyk/trikulicky">
+          <img src="./imgs/ghlogo.png" alt="github-logo" />
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
