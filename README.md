@@ -1,4 +1,7 @@
 # Trikulicky
+
+<img width="1906" height="916" alt="{2C374D70-D29F-4742-B2C5-FF53810AB5EB}" src="https://github.com/user-attachments/assets/34156344-e00b-48ab-944e-0de1e044fbcc" />
+
 ***
 # What is the point of this repo?
 ***
