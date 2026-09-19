@@ -1,11 +1,16 @@
 # Trikulicky
+
+<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/9cc9cb5a-a062-4dc9-8f8f-7557ee513f83" />
+
+
 ***
 # What is the point of this repo?
 ***
 **The website name is "How to make you autumn feel good"**
 * **It covers tips, games, trips, recipes and much more!**
 * **It was used to help members of our team to learn new things**
-* **And ofc to have something on thirdspace (lol)** 
+* **And ofc to have something on thirdspace (lol)**
+* **Also we have a new random activity button!**
 ***
 # What are Trikulicky and what do they mean?
 ***
