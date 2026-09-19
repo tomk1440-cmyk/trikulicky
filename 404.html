@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <title>404 - Page not found</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="404.css">
 </head>
 <body>
 <h1>404</h1>
 <h2>It looks like you were lost in autumn forest</h2>
+<h2 id="standovka">Why are you here?</h2>
+<h2 class="jardovka">Because you entered the wrong url or clicked somewhere you shouldn't have</h2>
+<p class="jardovka">if you believe that you are in the correct url, or you think our website is broken please <a
+        href="mailto:glixie@glixie.me">email</a> me</p>
 <a href="index.html">
     <button class="autumn-btn">Go back home</button>
 </a>
@@ -15,6 +20,10 @@
 <button class="autumn-btn" onclick="randomPage()">
     Take me somewhere random!
 </button>
+<p>Or you can:</p>
+<a  href="mailto:glixie@glixie.me">
+    <button class="autumn-btn">Email me!</button>
+</a>
 <script src="script.js"></script>
 </body>
 </html>
