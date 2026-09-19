@@ -252,3 +252,6 @@ background-size: initial;
         height: auto;
     }
 }
+.go-back {
+    margin-bottom: 20px;
+}
